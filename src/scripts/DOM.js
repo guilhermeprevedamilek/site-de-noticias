@@ -198,8 +198,6 @@ export function showLive({ id, title, video_cover, video_cover_alt }) {
         ${title}
       </h4>
     `;
-
-  liveNews.appendChild(newsDiv);
 }
 
 export function showEditorsPick({

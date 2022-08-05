@@ -228,7 +228,7 @@ main {
 
 .website-news__topics-scroll {
   width: 85%;
-  overflow: auto;
+  overflow-x: auto;
 }
 
 .website-news__topics {
@@ -533,7 +533,7 @@ main {
   left: -20px;
 
   width: calc(100% + 40px);
-  overflow: auto;
+  overflow-x: auto;
 }
 
 .editors-pick__all-news {
@@ -610,6 +610,7 @@ main {
 }
 
 .editors-pick__news-title {
+  width: calc(100% - 20px);
 }
 
 .editors-pick__news-description {
